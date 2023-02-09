@@ -29,6 +29,7 @@ const Header = () => {
           <li onClick={() => setMenuOpened(false)}>
             <Link
               onClick={() => setMenuOpened(false)}
+              activeClass="active"
               to="home"
               span={true}
               smooth={true}
