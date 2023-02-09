@@ -48,3 +48,11 @@
 .logo-f > img {
   width: 10rem;
 }
+@media screen and (max-width: 768px) {
+  .blur-f-1 {
+    right: 25%;
+  }
+  .blur-f-2 {
+    display: none;
+  }
+}

@@ -86,3 +86,26 @@
 .plans > :nth-child(2) > button {
   color: orange;
 }
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+  .plans > :nth-child(2) {
+    transform: none;
+  }
+  .plan {
+    width: 37rem;
+    gap: 1rem;
+  }
+  .plan > button {
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  .plans-blur-1 {
+    top: 36rem;
+  }
+  .plans-blur-2 {
+    top: 36rem;
+  }
+}
